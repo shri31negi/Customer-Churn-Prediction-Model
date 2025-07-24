@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import pickle
 
-model = pickle.load(open('customer_churn.pkl', 'rb'))
+model = pickle.load(open("customer_churn.pkl", "rb"))
 
 st.title("Customer Churn Prediction")
 
